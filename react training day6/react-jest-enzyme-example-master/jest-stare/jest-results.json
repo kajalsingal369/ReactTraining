@@ -1,0 +1,146 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 2,
+  "numPassedTests": 5,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 2,
+  "numTotalTests": 5,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 1,
+    "total": 1,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1604485738548,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1604485757382,
+        "start": 1604485745727
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 1,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\user279\\Documents\\react training day6\\react-jest-enzyme-example-master\\src\\test\\calculator.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Calculator component"
+          ],
+          "duration": 76,
+          "failureMessages": [],
+          "fullName": "Calculator component should render snapshot",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should render snapshot"
+        },
+        {
+          "ancestorTitles": [
+            "Calculator component"
+          ],
+          "duration": 3,
+          "failureMessages": [],
+          "fullName": "Calculator component should return the correct sum",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return the correct sum"
+        },
+        {
+          "ancestorTitles": [
+            "Calculator component"
+          ],
+          "duration": 41,
+          "failureMessages": [],
+          "fullName": "Calculator component should render required form elements",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should render required form elements"
+        },
+        {
+          "ancestorTitles": [
+            "Calculator component"
+          ],
+          "duration": 243,
+          "failureMessages": [],
+          "fullName": "Calculator component should display the result on add",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display the result on add"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1604485757725,
+        "start": 1604485745741
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\user279\\Documents\\react training day6\\react-jest-enzyme-example-master\\src\\test\\OrderedList.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "test suites"
+          ],
+          "duration": 67,
+          "failureMessages": [],
+          "fullName": "test suites render all mocked options",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "render all mocked options"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false
+}

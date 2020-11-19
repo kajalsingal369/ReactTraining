@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		/*function database(){
+			var dbObj= openDatabase("html","1.0","my database",2*1024*1024,onSuccessCreate());
+
+              }*/
+              var dbObj= openDatabase("html","1.0","my database",2*1024*1024,onSuccessCreate());
+
+              function createTable(){
+              	dbObj.transaction(function (tx) {  
+           			 tx.executeSql('CREATE TABLE IF NOT EXISTS Employee_Table (id unique, Name, Location)');  
+        	});
+              }
+              function insert(){
+              	dbObj.transaction(function(tx){
+              		tx.executeSql('insert into Employee_Table(id, Name, Location) values("101","EShan","Pune")');
+
+              	});
+              }
+		 function onSuccessCreate() {
+		 	alert("database is created");
+		 	// body...
+		 }
+	</script>
+</head>
+<body>
+<input type="button" onclick="createTable()" value=" create Employee_Table">
+<input type="button" onclick="insert()" value=" insert Employee_Table">
+</body>
+</html>
